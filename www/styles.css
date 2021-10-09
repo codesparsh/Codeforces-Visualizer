@@ -18,18 +18,13 @@ h6 {
     font-family: inherit;
 }
 
-.left_wrapper{
-    
+.row {
+    margin-right: 0px !important;
     margin-left: 25px !important;
 }
 
-.row{
-    margin-right: 0px !important;
-    margin-left: 0px !important;
-}
-
 body {
-   /* margin: -1.2em -0.1em !important;*/
+    /* margin: -1.2em -0.1em !important;*/
     font-family: 'Quantico', sans-serif !important;
 }
 
@@ -149,7 +144,7 @@ body {
     border: none;
 }
 
-.sidebar-action  {
+.sidebar-action {
     background: rgba(51, 131, 195, 0.33) !important;
     color: white !important;
     border: none !important;
