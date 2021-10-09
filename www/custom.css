@@ -1,0 +1,14 @@
+#sidebarItemExpanded {
+    display: flex;
+    justify-content: center;
+}
+
+#avatar_img {
+    border-radius: 10%;
+    margin: 5%;
+}
+
+#hello_text {
+    padding-left: 10%;
+    padding-top: 12%;
+}
