@@ -13,7 +13,7 @@ getHomeUi <- function() {
                 width = 12,
                 tags$div(
                     tags$div(
-                        tags$img(id ="signature",src='assets/cvv.png',alt ="icon", width = 70, height = 70),
+                        tags$img(id ="signature",src='assets/cvv.png',alt ="icon", width = 70, height = 80),
                         id = "logo_row"
                     ),
                     fluidRow(
