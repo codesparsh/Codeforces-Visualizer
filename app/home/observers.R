@@ -4,6 +4,12 @@ constructHomeUI <- function(input,output,session){
     )
 }
 
+observe(
+    output$icon<-renderUI({
+        
+        tags$img(src='assets/cvv.png',alt ="icon", width = 60, height = 100)
+    })  
+)
 
 observeEvent(input$handle_search,{
     handle <- input$handle_input

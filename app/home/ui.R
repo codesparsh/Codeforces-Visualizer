@@ -7,7 +7,10 @@ getHomeUi <- function() {
             tags$script(type = "text/javascript", src = "script.js")
         ),
         
-       
+        tags$div(
+            uiOutput("icon"),
+            id = "icon"
+        ),
         fluidRow(
             column(
                 width = 12,
