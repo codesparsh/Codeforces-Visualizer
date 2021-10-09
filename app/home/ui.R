@@ -7,16 +7,13 @@ getHomeUi <- function() {
             tags$script(type = "text/javascript", src = "script.js")
         ),
         
-        tags$div(
-            uiOutput("icon"),
-            id = "icon"
-        ),
+        
         fluidRow(
             column(
                 width = 12,
                 tags$div(
-                    useShinyalert(),
                     fluidRow(
+                        tags$img(id ="logo",src='assets/cvv.png',alt ="icon", width = 60, height = 100),
                         p("Welcome to,", id = "welcome"),
                         p("Codeforces"),
                         p("Visualizer", id = "visualizer"),
