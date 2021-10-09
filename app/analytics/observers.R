@@ -84,7 +84,6 @@ observeEvent(input$heroTag, {
     delay(200, remove_modal_spinner())
 }, error = function(e){
     print(e)
-    print("error1")
 })
 
 

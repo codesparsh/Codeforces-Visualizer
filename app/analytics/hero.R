@@ -36,8 +36,6 @@ heroFunction <- function(problemTag)
     {
       HT <- "nodata"
     }
-    print(HT)
-
     if(HT == "Newbie")
       return(str_c("2 ",HT))
     else if(HT == "pupil")
@@ -59,8 +57,6 @@ heroFunction <- function(problemTag)
     else
       return(str_c("11 ",HT))
   },  error = function(e){
-    
-    print(HT)
     print(e)
   })
   
