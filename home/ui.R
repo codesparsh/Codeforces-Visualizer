@@ -4,7 +4,6 @@ getHomeUi <- function() {
     tags$div(
         tags$head(
             tags$link(rel = "stylesheet", type = "text/css", href = "styles.css"),
-            tags$script(type = "text/javascript", src = "script.js"),
         ),
        
         fluidRow(
@@ -40,6 +39,10 @@ getHomeUi <- function() {
                 id = "top_right_illustration"
             ),
         ),
+
+        tags$div(
+            tags$script(type = "text/javascript", src = "script.js")
+        )
          
     )
 }
