@@ -164,3 +164,8 @@ body {
     width: 7em;
     border-radius: 50%;
 }
+
+#logo_row {
+    margin-top: 15px !important;
+    margin-left: -40px !important;
+}
