@@ -1,0 +1,13 @@
+name: CodeforcesVisualizer
+title: CodeforcesVisualizer
+username:
+account: peakyblinders
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4834798
+bundleId: 5122127
+url: https://peakyblinders.shinyapps.io/CodeforcesVisualizer/
+when: 1633802757.97334
+lastSyncTime: 1633802757.97334
+asMultiple: FALSE
+asStatic: FALSE

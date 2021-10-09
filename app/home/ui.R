@@ -13,7 +13,7 @@ getHomeUi <- function() {
                 width = 12,
                 tags$div(
                     fluidRow(
-                        tags$img(id ="logo",src='assets/cvv.png',alt ="icon", width = 60, height = 100),
+                        tags$img(id ="signature",src='assets/cvv.png',alt ="icon", width = 100, height = 100),
                         p("Welcome to,", id = "welcome"),
                         p("Codeforces"),
                         p("Visualizer", id = "visualizer"),
