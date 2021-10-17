@@ -12,12 +12,12 @@ getHomeUi <- function() {
             column(
                 width = 12,
                 tags$div(
-                    tags$div(
-                        tags$img(id ="signature",src='assets/cvv.png',alt ="icon", width = 70, height = 70),
-                        id = "logo_row"
-                    ),
+                    # tags$div(
+                    #     tags$img(id ="signature",src='assets/cvv.png',alt ="icon", width = 70, height = 70),
+                    #     id = "logo_row"
+                    # ),
                     fluidRow(
-                        p("Welcome to,", id = "welcome"),
+                        # p("Welcome to,", id = "welcome"),
                         p("Codeforces"),
                         p("Visualizer", id = "visualizer"),
                         tags$div(

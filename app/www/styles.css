@@ -1,8 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Megrim&family=Ubuntu&display=swap'); */
-
-
-/* @import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,700;1,400&display=swap'); */
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quantico&display=swap');
 html {
     height: 100%;
@@ -25,12 +21,13 @@ h6 {
 
 body {
     /* margin: -1.2em -0.1em !important;*/
-    font-family: 'Quantico', sans-serif !important;
+    font-family: 'Noto Sans Mono', monospace;
+    /* font-family: 'Quantico', sans-serif !important; */
 }
 
 #top_right_illustration {
     height: 100vh;
-    background-image: url("./assets/home/top_right.jpg");
+    background-image: url("./assets/home/home2.jpg");
     background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
@@ -60,7 +57,8 @@ body {
     border-radius: 2em;
     padding: 0px 15px;
     font-size: 1em;
-    font-family: 'Quantico', sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
+    /* font-family: 'Quantico', sans-serif; */
 }
 
 #handle_search {
@@ -75,7 +73,8 @@ body {
     width: 70%;
     border: transparent;
     border-radius: 1.5em;
-    font-family: 'Quantico', sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
+    /* font-family: 'Quantico', sans-serif; */
     /* box-shadow: 0px 0px 10px 2px #031f34; */
     -webkit-transition-duration: 0.4s !important;
     /* Safari */
